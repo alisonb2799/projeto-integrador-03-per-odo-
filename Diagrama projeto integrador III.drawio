@@ -1,0 +1,193 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="28.2.0">
+  <diagram name="Página-1" id="_oU3Lrbn1xZpAfUjPB4J">
+    <mxGraphModel dx="1281" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-2" value="Usuário" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="20" y="555" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-3" value="Sistema" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="710" y="554" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-4" value="Logar" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="410" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-5" value="Validar Cadastro" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="410" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="mxIx3En-TiPvuGwmbzmP-2" target="mxIx3En-TiPvuGwmbzmP-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="520" as="sourcePoint" />
+            <mxPoint x="110" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-46" value="Arduino" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="555" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-50" value="Envia dados de temperatura" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="900" y="535" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-51" value="Envia dados do ar condicionado (ligado ou desligado)" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="890" y="600" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-52" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="mxIx3En-TiPvuGwmbzmP-46" target="mxIx3En-TiPvuGwmbzmP-50" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1230" y="550" as="sourcePoint" />
+            <mxPoint x="1180" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-53" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="mxIx3En-TiPvuGwmbzmP-46" target="mxIx3En-TiPvuGwmbzmP-51" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1170" y="580" as="sourcePoint" />
+            <mxPoint x="1020" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-54" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="mxIx3En-TiPvuGwmbzmP-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="900" y="560" as="sourcePoint" />
+            <mxPoint x="760" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-55" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="mxIx3En-TiPvuGwmbzmP-51" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="900" y="560" as="sourcePoint" />
+            <mxPoint x="740" y="574" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-56" value="Exibe na tela os dados de temperatura(cada 10 seg)" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="414" y="505" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-57" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" source="mxIx3En-TiPvuGwmbzmP-56" target="mxIx3En-TiPvuGwmbzmP-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="574" y="550" as="sourcePoint" />
+            <mxPoint x="659" y="669" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-58" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="mxIx3En-TiPvuGwmbzmP-2" target="mxIx3En-TiPvuGwmbzmP-56" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="571" as="sourcePoint" />
+            <mxPoint x="186" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-59" value="Envio de alerta ao usuário em caso de variações anormais de temperatura" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="414" y="610" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-60" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" source="mxIx3En-TiPvuGwmbzmP-59" target="mxIx3En-TiPvuGwmbzmP-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="574" y="651" as="sourcePoint" />
+            <mxPoint x="710" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-61" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="mxIx3En-TiPvuGwmbzmP-2" target="mxIx3En-TiPvuGwmbzmP-59" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="60" y="580" as="sourcePoint" />
+            <mxPoint x="425" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-62" value="Envio de alerta ao usuário se houver falha no ar condicionado" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="414" y="710" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-63" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="mxIx3En-TiPvuGwmbzmP-62" target="mxIx3En-TiPvuGwmbzmP-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="574" y="746" as="sourcePoint" />
+            <mxPoint x="710" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-64" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="mxIx3En-TiPvuGwmbzmP-2" target="mxIx3En-TiPvuGwmbzmP-62" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="50" y="570" as="sourcePoint" />
+            <mxPoint x="414" y="645" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-65" value="Configurar limites de alerta de temperatura" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="470" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-66" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mxIx3En-TiPvuGwmbzmP-65" target="mxIx3En-TiPvuGwmbzmP-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="485" />
+            </Array>
+            <mxPoint x="231" y="510" as="sourcePoint" />
+            <mxPoint x="596" y="485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-67" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="mxIx3En-TiPvuGwmbzmP-2" target="mxIx3En-TiPvuGwmbzmP-65" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="45" y="565" as="sourcePoint" />
+            <mxPoint x="130" y="445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-68" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="mxIx3En-TiPvuGwmbzmP-4" target="mxIx3En-TiPvuGwmbzmP-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="240" y="440" as="sourcePoint" />
+            <mxPoint x="290" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-70" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="379.99846153846187" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-75" value="Calibrar sensores de temperatura" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="890" y="700" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-76" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="mxIx3En-TiPvuGwmbzmP-3" target="mxIx3En-TiPvuGwmbzmP-75" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="760" y="585" as="sourcePoint" />
+            <mxPoint x="1124" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-77" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="mxIx3En-TiPvuGwmbzmP-46" target="mxIx3En-TiPvuGwmbzmP-75" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="890" y="570" as="sourcePoint" />
+            <mxPoint x="1040" y="736" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-78" value="&lt;span style=&quot;font-kerning: normal;&quot; class=&quot;OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none&quot;&gt;Registrar acessos e modificações realizadas no sistema&amp;nbsp;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="414" y="820" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-79" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="mxIx3En-TiPvuGwmbzmP-78" target="mxIx3En-TiPvuGwmbzmP-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="584" y="760" as="sourcePoint" />
+            <mxPoint x="720" y="584" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-80" value="&lt;span style=&quot;font-kerning: normal;&quot; class=&quot;OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none&quot;&gt;Sistema sugere ações para manter a temperatura estável.&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="910" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-81" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.583;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="mxIx3En-TiPvuGwmbzmP-80" target="mxIx3En-TiPvuGwmbzmP-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="584" y="870" as="sourcePoint" />
+            <mxPoint x="720" y="584" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-82" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="mxIx3En-TiPvuGwmbzmP-80" target="mxIx3En-TiPvuGwmbzmP-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="160" y="910" as="sourcePoint" />
+            <mxPoint x="290" y="522" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxIx3En-TiPvuGwmbzmP-84" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="640" y="435" as="sourcePoint" />
+            <mxPoint x="710" y="574" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
